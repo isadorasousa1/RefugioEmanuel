@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Quem somos- Refúgio Emanuel</title>
+  <link rel="stylesheet" href="visao.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300..700&family=Gilda+Display&family=Montserrat:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+  
+</head>
+<body>
+    <header>
+      <div class="navegacao">
+        <button id="menu-toggle" class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav id="navlinks" class="navlinks">
+          <a href="visao.html">Quem Somos</a>
+          <a href="sobre.html#cultos">Cultos</a>
+          <a href="sobre.html#dizimoofertas">Ofertas</a>
+          <a href="sobre.html#footer">Nossas Igrejas</a>
+        </nav>
+      </div>
+        <div class="cabecalho">
+            <img src="logo (2).png" alt="logo da igreja refúgio emanuel" class="logo-refugio"/>
+            <div class="title">
+                <h2 class="title2">QUEM SOMOS</h2>
+            </div>
+        </div>
+    </header>
+ <div class="visao-screen">
+   
+    <div class="visao">
+      <h2>Visão</h2> 
+       <p class="text-visao"> Somos uma igreja pautada na visão e sentimento de Deus para com o pecador, desejando crescer sempre em direção a Deus e seus propósitos. Somos fundamentados na palavra de Deus, na exposição e entendimento, mobilizando o povo para viver inteiramente na fé, ser verdadeiramente o sal da terra e a luz, fazendo Jesus ser conhecido por todos pelo amor, acolhimento e inteireza de coração.</p>
+     
+      </div>
+    </div>
+    <section class="valor-screen">
+        <div class="titlevalor">
+            <h2>Valores</h2>
+        </div>
+        <div class="caixa-container">
+          <div class="icone">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Comunidade</h3>
+          <p>Amar e servir ao próximo, levando os fundamentos de uma vida cristã. Sendo uma igreja família.</p>
+        </div>
+      
+            <div class="caixa-container">
+                <div class="icone">
+                  <i class="fas fa-book"></i>
+                </div>
+          <h3>Verdade Bíblica</h3>
+          <p>Tudo o que fazemos, falamos e vivemos está alinhado aos princípios da palavra de Deus. Ela é a verdade absoluta e imutável que direciona nossas vidas, que conduz o pecador a salvação.</p>
+        </div>
+      
+        <div class="caixa-container">
+            <div class="icone">
+                <i class="fa-solid fa-cross"></i>
+              </div>
+          <h3>Intimidade com Deus</h3>
+          <p>Viver uma vida de intimidade com Deus. Buscando uma vida de adoração, oração e leitura da palavra de Deus que é a base para a intimidade com o nosso Deus.</p>
+        </div>
+      
+        <div class="caixa-container">
+            <div class="icone">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+          <h3>Discipulado</h3>
+          <p>Responsabilidade em discipular pessoas. Formamos discípulos que manifestam as obras de Cristo e carregam o Seu caráter.</p>
+        </div>
+      </section>
+      <section>
+        <div class="hero">
+            <div class="versiculo">
+              <hr class="line">
+              <p>"Ide por todo mundo e pregai o evangelho a toda criatura".
+                <span class="livrobi"><br> Marcos 16:15 <hr class="line"></span>
+              </p><br>
+             
+            </div>
+          </div>
+       
+      </section>
+ 
+ <footer>
+    <div class="local">
+      
+      
+      <div class="SP"><h2><i class="fas fa-map-marker-alt"></i> São Paulo</h2></div>
+      
+      <div class="endereco">
+        <p class="lugar">São Paulo Capital</p>
+        <p>Estrada Coronel José Gladiador, 2698 - Jardim Anhanguera.</p>
+      </div>
+      
+      <hr class="linhafo">
+      <div class="endereco">
+        <p class="lugar">Franco da Rocha</p>
+        <p>Rua Ibis Dourado, 2311 - Parque Pretoria.</p>
+      </div>
+      
+      <hr class="linhafo">
+      <div class="endereco">
+        <p class="lugar">Taipas</p>
+        <p>Rua Máximo Barbosa, 215 - Jardim Shangrilá.</p>
+        <hr class="linhafo">
+      </div>
+      <div class="social-container">
+        <a href="https://youtube.com/@refugioemanuel" target="_blank" class="social-icon">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.facebook.com/share/1DQ7Q3gpWF/?mibextid=wwXIfr" target="_blank" class="social-icon">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </div>
+        
+  
+     </div>
+     </div>
+    </footer>
+    <div class="direitos">
+        <p>&copy; 2025 Refúgio Emanuel</p>
+      </div>
+      <script>
+        // Menu Hambúrguer
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('navlinks');
+        
+        menuToggle.addEventListener('click', () => {
+          navLinks.classList.toggle('active');
+          menuToggle.innerHTML = navLinks.classList.contains('active')
+            ? '<i class="fas fa-times"></i>'
+            : '<i class="fas fa-bars"></i>';
+        });
+    
+        // Fecha o menu ao clicar nos links (mobile)
+        document.querySelectorAll('#navlinks a').forEach(link => {
+          link.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+              navLinks.classList.remove('active');
+              menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            }
+          });
+        });
+    
+        // Scroll suave com destaque da seção atual
+        const sections = document.querySelectorAll("section");
+        const navLinksItems = document.querySelectorAll("#navlinks a");
+    
+        window.addEventListener("scroll", () => {
+          let current = "";
+          sections.forEach(section => {
+            const sectionTop = section.offsetTop - 100;
+            if (window.scrollY >= sectionTop) {
+              current = section.getAttribute("id");
+            }
+          });
+    
+          navLinksItems.forEach(link => {
+            link.classList.remove("active");
+            if (link.getAttribute("href") === `#${current}`) {
+              link.classList.add("active");
+            }
+          });
+        });
+      </script>
+</body>
+</html>

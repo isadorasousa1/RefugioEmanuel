@@ -1,0 +1,546 @@
+* {
+  box-sizing: border-box;
+ 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+.link { /* style dos botoes do linktree */
+  display: block;
+  width: 90%;
+  max-width: 400px;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: transparent; /* Fundo transparente */
+  border: 1px solid #fff; /* Borda laranja (troque pela cor desejada) */
+  border-radius: 5px; /* Cantos arredondados */
+  transition: background 0.3s;
+  top: -40px;
+  position: relative;
+ 
+}
+
+.container { /* div do index para estilizar o fundo do linktree */
+  background: linear-gradient(to top left,#e0eafc, #cfdef3, #9fbde9);
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  height: 100vh; 
+  align-items: center;
+}
+
+.link:hover { /* fazer o botao mudar de cor ao passar o mouse */
+background-color: #3a7b7a6c;
+
+}
+ .logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  margin-top: -90px;
+  text-align: center;
+  height: 300px;
+}
+
+.navegacao {
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(to right,#e0eafc, #cfdef3, #9fbde9);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #082241;
+  z-index: 1001;
+  padding: 5px 15px;
+}
+
+#navlinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  padding: 0 20px;
+  flex-wrap: wrap;
+
+  
+}
+
+#navlinks a {
+  color: #082241;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: color 0.3s;
+  padding: 8px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#navlinks a:hover,
+#navlinks a.active {
+  color: #4e78ac;
+}
+
+.cabecalho {
+  background: linear-gradient(to right,#e0eafc, #cfdef3, #9fbde9);
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  padding-top: 50px;
+}
+.nomeigreja {
+  font-size: 2.5rem;
+  color: #082241;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.subigreja {
+  color: #fff;
+  font-size: 16px;
+  background-color: #082241;
+  border: none;
+  padding: 9px 15px;
+  margin: 15px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+
+.logorefu {
+  height: 130px;
+  display: block;
+  margin: 0 auto;
+padding-top: 30px;
+
+}
+
+.sobrenos {
+  background-color: #082241;
+  color: #fff;
+  padding: 60px 20px;
+  display: flex;
+  
+}
+
+.sobreh2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 2rem;
+ margin-top: 5px;
+ margin-bottom: 20px;
+  
+}
+.text-sobre {
+font-family: "Montserrat", sans-serif;
+font-weight: 200;
+font-size: 1.2rem;
+color: #fff;
+max-width: 600px;
+text-align: left;
+}
+.text {
+  padding: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.lideranca {
+  background: linear-gradient(to bottom left,#e0eafc, #cfdef3, #9fbde9);
+  padding: 40px 20px;
+}
+
+.lider-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.lider {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+.lider-foto {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 15px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lidertitle {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-size: 2.5rem;
+  text-align: center;
+  
+ 
+}
+.lider h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.text{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem; 
+  text-align: center;
+}
+
+#cultos {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  background-color: #082241;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  
+}
+.dias-culto{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  
+}
+
+.nome-culto{
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.culto-title {
+  
+  margin-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color:  #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.sub-youtube {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #fff;
+font-size: 14px;
+
+}
+
+.cultos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.culto-horarios {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  max-width: 400px;
+}
+
+.culto-youtube {
+  font-size: 1.2rem;
+  padding: 20px;
+  max-width: 320px;
+}
+
+.icone-youtube {
+  font-size: 2rem;
+  color: white;
+  padding: 10px;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.icone-youtube:hover {
+ transform: scale(1.05);
+ box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+.linha {
+  width: 80%;
+  height: 1px; 
+  background-color: #ffffff; 
+  margin: 20px auto; 
+  margin-top: -70px; 
+  margin-bottom: 100px; 
+}
+
+ 
+  #dizimoofertas {
+  background-color: #082241;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+}
+
+.title-diz {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.vers {
+  font-size: 1rem;
+  color: #cdd6f4;
+  max-width: 400px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+  
+}
+
+.livro{
+  font-weight: 500;
+  color: white;
+}
+
+.caixa-dados {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 30px 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.05);
+  
+}
+
+.title-contri  {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+ 
+}
+.contri{
+  font-weight: 500;
+  
+}
+.chaves{
+  font-weight: 500;
+  font-size: 19px;
+  color: white;
+}
+
+.caixa-dados p {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 17px;
+  font-weight: 300;
+  
+}
+#footer {
+  background-color: #f2f2f2;
+  padding: 30px 20px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+
+.SP h2 {
+  font-size: 32px;
+  color: #082241;
+  margin-bottom: 30px;
+  
+}
+
+.SP i {
+  margin-right: 10px;
+  color: #082241;
+}
+
+.endereco {
+  margin-bottom: 20px;
+  line-height: 2;
+
+}
+
+.lugar {
+  color: #082241;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+#footer p {
+  margin: 4px 0;
+  font-size: 15px;
+  color: #082241;
+  transition: color 0.3s ease;
+  font-size: 1.2rem;
+}
+
+
+.linhafo {
+  height: 1px;
+  background: #082241;
+  margin: 25px 0;
+  width: 100%;
+
+}
+
+
+.social-container{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.social-icon{
+  display: flex;
+  text-decoration: none;
+ margin-left: 12px;
+  font-size: 1.5rem;
+  color: #082241;
+  cursor: pointer;
+
+}
+
+
+.social-icon:hover {
+    transform: scale(1.1); 
+}
+.direitos{
+  text-align: center;
+  font-size: 13px;
+  color: #082241;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F2F2F2;
+  padding: 5px;
+  
+}
+
+@media (max-width: 768px) {
+  /* Menu Hambúrguer */
+  #menu-toggle {
+    display: block;
+    position: fixed;
+    right: 15px;
+    top: 5px;
+
+    z-index: 1001;
+  }
+
+  #navlinks {
+    display: none;
+    flex-direction: column;
+    position: fixed;  
+    height: 50%;
+    background: linear-gradient(to right, #e0eafc, #cfdef3, #9fbde9);
+    width: 100%;
+    padding:5px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 999;
+    padding-bottom: 30px;
+  }
+
+  #navlinks.active {
+    display: flex;
+  }
+
+  #navlinks a {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(8, 34, 65, 0.1);
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  /* Ajustes no cabeçalho */
+  .cabecalho {
+    padding-top: 50px;
+  }
+
+  .nomeigreja {
+    font-size: 1.8rem;
+  }
+
+  .logorefu {
+    height: 100px;
+    padding-top: 10px;
+  }
+
+  /* Ajustes nas seções */
+  .lider-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cultos-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .culto-horarios, .culto-youtube {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .nomeigreja {
+    font-size: 24px;
+  }
+  
+  .subigreja {
+    font-size: 14px;
+    padding: 7px 12px;
+  }
+  
+  .sobreh2, .lidertitle, .culto-title, .title-diz {
+    font-size: 1.8rem;
+  }
+}

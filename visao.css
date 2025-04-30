@@ -1,0 +1,418 @@
+* {
+  box-sizing: border-box;
+ 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+   
+}
+
+.navegacao {
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(to right,#e0eafc, #cfdef3, #9fbde9);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #082241;
+  z-index: 1001;
+  padding: 5px 15px;
+}
+
+#navlinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  padding: 0 20px;
+  flex-wrap: wrap;
+
+  
+}
+
+#navlinks a {
+  color: #082241;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: color 0.3s;
+  padding: 8px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#navlinks a:hover,
+#navlinks a.active {
+  color: #4e78ac;
+}
+
+
+.logo-refugio {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.navlinks{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.navlinks a {
+  color:  #082241;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: color 0.3s;
+  padding: 8px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.navlinks a:hover,
+.navlinks a.active {
+  color: #4e78ac;
+}
+.navegacao{
+  position: fixed;
+  width: 100%;
+  background:linear-gradient(to right,#e0eafc, #cfdef3, #9fbde9);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);/*sombra*/
+  z-index: 1000;
+  height: 40px;
+}
+
+.title2{
+  font-size: 40px;
+  color: #082241;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  font-weight: 300;
+  margin-top: 20px; 
+  text-align: center;
+}
+  .cabecalho{
+  background-color: #082241;
+  background: linear-gradient(to right,#e0eafc, #cfdef3, #9fbde9);
+  padding: 5px;
+  width: 100%;
+  margin: 0 auto;
+  }
+  .visao-screen{
+    background-color:#082241;
+    padding: 40px 20px;
+    display: flex;
+   
+  }
+  .visao{
+    border-radius: 20px;
+    padding: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: -40px;
+   
+  }
+ 
+  .visao h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+   margin-top: -50px;
+   text-align: left;
+   margin-bottom: 20px;
+  }
+  .text-visao{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: #fff;
+    max-width: 700px;
+    text-align: left;
+    
+   
+  }
+  .valor-screen{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    background-color: #f2f2f2;
+    padding: 60px 40px;
+    text-align: center;
+ 
+ 
+  }
+  
+  .caixa-container {
+    background:#f2f2f2 ;
+    width:22%; /* para caber 4 lado a lado */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #082241;
+  max-width: 250px;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+  padding: 30px 20px;
+  border-radius: 10px;
+  }
+  .titlevalor{
+    text-align: center;
+     padding: 20px;
+     width: 100%;
+     font-family: 'Noto Sans', sans-serif;
+     font-weight: 400;
+     font-size: 1.5rem;
+     color: #082241;
+     margin: 0 auto;
+     margin-top: -50px;
+   
+   }
+  .caixa-container h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  .icone {
+ background-color: #b6c0be;
+ border-radius: 50%;
+ width: 70px;
+ height: 70px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0 auto 20px;
+ font-size: 25px;
+  }
+  .titlevalor h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight:300;
+    margin-top: 40px;
+    font-size: 2.4rem;
+    text-transform:uppercase;
+    color: #082241;
+    text-align: center;
+    padding:10px;
+    margin-bottom: 20px;
+  }
+  .caixa h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .caixa-container p {
+    font-family:"Montserrat", sans-serif; ;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .hero {
+    position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 30%, transparent 70%), 
+                url('igreja3.jpeg') center/cover no-repeat;
+   
+    
+  }
+  .versiculo {
+    position: relative;
+    max-width: 70%;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 200;
+    font-family:  'Montserrat', sans-serif;
+    color: #fff;
+    z-index: 1;
+    
+  }
+  .livrobi{
+    font-weight: 400;
+  }
+  .line{
+    width: 100%;
+   height:1px;
+  }
+  /* Responsivo para celular */
+  @media (max-width: 768px) {
+    .valor-screen{
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .caixa-container {
+      width: 90%;
+     min-width: none;
+    }
+  }
+  
+  
+footer {
+  background-color: #f2f2f2;
+  padding: 30px 20px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+
+.SP h2 {
+  font-size: 32px;
+  color: #082241;
+  margin-bottom: 30px;
+  
+}
+
+.SP i {
+  margin-right: 10px;
+  color: #082241;
+}
+
+.endereco {
+  margin-bottom: 20px;
+  line-height: 2;
+
+}
+
+.lugar {
+  color: #082241;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+footer p {
+  margin: 4px 0;
+  font-size: 15px;
+  color: #082241;
+  transition: color 0.3s ease;
+  font-size: 1.2rem;
+}
+
+
+.linhafo {
+  height: 1px;
+  background: #082241;
+  margin: 25px 0;
+  width: 100%;
+
+}
+
+
+.social-container{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.social-icon{
+  display: flex;
+  text-decoration: none;
+ margin-left: 12px;
+  font-size: 1.5rem;
+  color: #082241;
+  cursor: pointer;
+
+}
+
+
+.social-icon:hover {
+    transform: scale(1.1); 
+}
+.direitos{
+  text-align: center;
+  font-size: 13px;
+  color: #082241;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f2f2f2;
+  padding: 5px;
+  
+}
+
+@media (max-width: 768px) {
+  /* Menu Hambúrguer */
+  #menu-toggle {
+    display: block;
+    position: fixed;
+    right: 15px;
+    top: 5px;
+    z-index: 1001;
+
+  }
+
+  #navlinks {
+    display: none;
+    flex-direction: column;
+    position: fixed;  
+    height: 50%;
+    background: linear-gradient(to right, #e0eafc, #cfdef3, #9fbde9);
+    width: 100%;
+    padding:5px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 999;
+    padding-bottom: 30px;
+  }
+
+  #navlinks.active {
+    display: flex;
+  }
+
+  #navlinks a {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(8, 34, 65, 0.1);
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+ 
+  }
+
+  /* Ajustes no cabeçalho */
+  .cabecalho {
+    padding-top: 50px;
+  }
+  .title2 {
+    font-size: 40px;
+  }
+
+  .logo-refugio {
+    height: 100px;
+    padding-top: 10px;
+  }
+
+  .valor-screen{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .caixa-container {
+    width: 90%;
+   min-width: none;
+  }
+}
+
+
+

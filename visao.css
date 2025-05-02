@@ -354,7 +354,7 @@ footer p {
 }
 
 @media (max-width: 768px) {
-  /* Menu Hambúrguer */
+ 
   #menu-toggle {
     display: block;
     position: fixed;
@@ -390,12 +390,11 @@ footer p {
  
   }
 
-  /* Ajustes no cabeçalho */
   .cabecalho {
     padding-top: 50px;
   }
   .title2 {
-    font-size: 40px;
+    font-size: 1.8rem;
   }
 
   .logo-refugio {
@@ -413,6 +412,16 @@ footer p {
    min-width: none;
   }
 }
-
+@media (max-width: 480px){
+.text-visao{
+font-size:1rem;
+}
+.titlevalor{
+  font-size:1.4rem;
+}
+.title2{
+  font-size:1.8rem
+  
+}
 
 

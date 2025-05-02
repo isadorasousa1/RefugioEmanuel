@@ -8,7 +8,7 @@ body {
   padding: 0;
   
 }
-.link { /* style dos botoes do linktree */
+.link 
   display: block;
   width: 90%;
   max-width: 400px;
@@ -30,8 +30,8 @@ body {
  
 }
 
-.container { /* div do index para estilizar o fundo do linktree */
-  background: linear-gradient(to top left,#e0eafc, #cfdef3, #9fbde9);
+.container { 
+  background: radial-gradient(circle,#9fbde9, #cfdef3,#e0eafc);
   display: flex;
   justify-content: center;
   background-position: center;
@@ -532,7 +532,7 @@ font-size: 14px;
 
 @media (max-width: 480px) {
   .nomeigreja {
-    font-size: 24px;
+    font-size: 1.8rem;
   }
   
   .subigreja {
@@ -543,4 +543,9 @@ font-size: 14px;
   .sobreh2, .lidertitle, .culto-title, .title-diz {
     font-size: 1.8rem;
   }
+  .text-sobre{
+font-size:1rem;
+    
+  }
+  
 }

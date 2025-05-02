@@ -100,7 +100,7 @@ body {
 }
 
 .title2{
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #082241;
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
@@ -207,7 +207,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight:300;
     margin-top: 40px;
-    font-size: 2.4rem;
+    font-size: 2rem;
     text-transform:uppercase;
     color: #082241;
     text-align: center;
@@ -394,7 +394,7 @@ footer p {
     padding-top: 50px;
   }
   .title2 {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
   }
 
   .logo-refugio {
@@ -411,17 +411,24 @@ footer p {
     width: 90%;
    min-width: none;
   }
+  .text-visao{
+font-size:1rem;
+}
+.titlevalor{
+  font-size:1.5rem;
+}
 }
 @media (max-width: 480px){
 .text-visao{
 font-size:1rem;
 }
 .titlevalor{
-  font-size:1.4rem;
+  font-size:1.5rem;
 }
 .title2{
-  font-size:1.9rem
-  
+  font-size:2.3rem
+}
+
 }
 
 

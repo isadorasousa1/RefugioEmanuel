@@ -21,17 +21,18 @@ body {
   color: #fff;
   font-size: 18px;
   text-decoration: none;
-  background-color: transparent; /* Fundo transparente */
-  border: 1px solid #fff; /* Borda laranja (troque pela cor desejada) */
-  border-radius: 5px; /* Cantos arredondados */
-  transition: background 0.3s;
+  background-color: transparent; 
+  border: 1px solid #fff;
+  border-radius: 30px; 
+ transition: background 0.3s;
   top: -40px;
   position: relative;
- 
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
 }
 
-.container { /* div do index para estilizar o fundo do linktree */
-  background: radial-gradient(circle,#9fbde9, #cfdef3,#e0eafc);
+.container {                                                                 
+ background: linear-gradient(to bottom,#e0eafc, #cfdef3, #9fbde9);
   display: flex;
   justify-content: center;
   background-position: center;

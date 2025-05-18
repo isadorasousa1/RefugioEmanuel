@@ -111,7 +111,7 @@ body {
   .cabecalho{
   background-color: #082241;
   background: linear-gradient(to right,#e0eafc, #cfdef3, #9fbde9);
-  padding: 5px;
+  padding: 20px;
   width: 100%;
   margin: 0 auto;
   }

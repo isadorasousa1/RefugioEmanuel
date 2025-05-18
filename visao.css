@@ -148,6 +148,39 @@ body {
     
    
   }
+  .visao-screen{
+    background-color:#082241;
+    padding: 40px 20px;
+    display: flex;
+   
+  }
+  .visao{
+    border-radius: 20px;
+    padding: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: -40px;
+   
+  }
+ 
+  .visao h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+   margin-top: -50px;
+   text-align: left;
+   margin-bottom: 20px;
+  }
+  .text-visao{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: #fff;
+    max-width: 700px;
+    text-align: left;
+    
+   
+  }
   .valor-screen{
    display: flex;
     flex-wrap: wrap;
@@ -174,8 +207,18 @@ body {
   padding: 30px 20px;
   border-radius: 10px;
   }
-
+  .titlevalor{
+    text-align: center;
+     padding: 20px;
+     width: 100%;
+     font-family: 'Noto Sans', sans-serif;
+     font-weight: 400;
+     font-size: 1.5rem;
+     color: #082241;
+     margin: 0 auto;
+     margin-top: -50px;
    
+   }
   .caixa-container h3{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -194,17 +237,6 @@ body {
  font-size: 25px;
   }
   .titlevalor h2{
-    font-family: "Montserrat", sans-serif;
-    font-weight:300;
-    margin-top: 40px;
-    font-size: 2rem;
-    text-transform:uppercase;
-    color: #082241;
-    text-align: center;
-    padding:10px;
-    margin-bottom: 20px;
-  }
- .titlevalor h2{
     font-family: "Montserrat", sans-serif;
     font-weight:300;
     margin-top: 40px;

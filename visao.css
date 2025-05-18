@@ -132,7 +132,7 @@ body {
  
   .visao h2{
     font-family: "Montserrat", sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 2rem;
    margin-top: -50px;
    text-align: left;
@@ -174,18 +174,8 @@ body {
   padding: 30px 20px;
   border-radius: 10px;
   }
-  .titlevalor{
-    text-align: center;
-     padding: 20px;
-     width: 100%;
-     font-family: 'Noto Sans', sans-serif;
-     font-weight: 400;
-     font-size: 1.5rem;
-     color: #082241;
-     margin: 0 auto;
-     margin-top: -50px;
+
    
-   }
   .caixa-container h3{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;

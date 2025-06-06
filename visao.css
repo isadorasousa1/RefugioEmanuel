@@ -100,21 +100,25 @@ body {
 }
 
 .title2{
-  font-size: 2.5rem;
-  color: #082241;
+ font-size: 2.5rem;
+  color: #fff;
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
-  font-weight: 400;
-  margin-top: 20px; 
-  text-align: center;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
   .cabecalho{
-  background-color: #082241;
-  background: linear-gradient(to right,#e0eafc, #cfdef3, #9fbde9);
- text-align: center;
-  padding: 20px;
+  background-image: url(igreja4.jpg);
+  background-repeat: no-repeat;
+  background-position: center -130px;
+  background-size: cover;
+  text-align: center;
+  padding: 20px 0;
   width: 100%;
-  padding-top: 50px;
+  height: 320px; /* altura ideal para desktop */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   }
   .visao-screen{
     background-color:#082241;
@@ -389,7 +393,9 @@ footer p {
   }
 
   .cabecalho {
-    padding-top: 50px;
+ height: 310px; 
+    padding: 10px 0;
+    background-position: center top;
   }
   .title2 {
     font-size: 2.3rem;

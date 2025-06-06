@@ -104,7 +104,7 @@ z-index: 999;
 }
 
 #navlinks a {
-  color: #fff;
+  color: #082241;
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
@@ -136,11 +136,11 @@ z-index: 999;
 
 .nomeigreja {
   font-size: 3rem;
-  color: #fff;
+  color: #f2f2f2ff;
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
-  font-weight: 400;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: r00;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .subigreja {
@@ -290,7 +290,13 @@ text-align: left;
 font-size: 14px;
 
 }
-
+.textyoutube{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
 .cultos-container {
   display: flex;
   flex-wrap: wrap;
@@ -509,7 +515,7 @@ font-size: 14px;
     flex-direction: column;
     position: fixed;  
     height: 50%;
-    background-color: #0822419f;
+    background-color: #f2f2f2b9;
     width: 100%;
     padding:5px 0;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -541,7 +547,7 @@ font-size: 14px;
   }
 
   .nomeigreja {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
 
   .logorefu {
@@ -567,7 +573,12 @@ font-size: 14px;
    .vers {
   font-size: 15px;  
 }
+  .textyoutube{
+font-size: 1rem;
+  }
 }
+
+
 
 @media (max-width: 480px) {
   .nomeigreja {
@@ -575,7 +586,7 @@ font-size: 14px;
   }
   
   .subigreja {
-    font-size: 14px;
+    font-size: 16px;
     padding: 7px 12px;
   }
   
@@ -585,5 +596,8 @@ font-size: 14px;
   .text-sobre{
 font-size:1rem;
     
+  }
+  .textyoutube{
+font-size: 1rem;
   }
   }

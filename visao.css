@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-   
+   overflow-x:hidden; 
 }
 
 .menu-toggle {
@@ -50,13 +50,6 @@ body {
 }
 
 
-.logo-refugio {
-  display: block;
-  margin: 0 auto;
-  height: 110px;
-  margin: 0 auto;
-  padding-top: 30px;
-}
 
 .navlinks{
   display: flex;
@@ -70,7 +63,7 @@ body {
 }
 
 .navlinks a {
-  color:  #fff;
+  color:  #082241;
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
@@ -92,10 +85,10 @@ body {
 
 .title2{
  font-size: 3rem;
-  color: #fff;
+  color: #f2f2f2ff;
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
-  font-weight: 400;
+  font-weight: 500;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 .logorefu{
@@ -104,7 +97,7 @@ body {
   margin: 0 auto;
 margin-top: -50px;
 padding: -30px;
- text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -348,7 +341,7 @@ footer p {
     flex-direction: column;
     position: fixed;  
     height: 50%;
-    background-color: #0822419f;
+    background-color: #f2f2f2ec;
     width: 100%;
     padding:5px 0;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -378,7 +371,7 @@ footer p {
     font-size: 2.3rem;
   }
 
-  .logo-refugio {
+  .logorefu {
     height: 100px;
     padding-top: 10px;
   }
@@ -399,7 +392,9 @@ font-size:1rem;
 .titlevalor{
   font-size:1.5rem;
 }
-
+.visao h2{
+  font-size: 1.9rem;
+}
 }
 @media (max-width: 480px){
 .text-visao{
@@ -412,6 +407,6 @@ font-size:1rem;
   font-size:2.3rem
 }
 .visao h2{
-  font-size:1.5rem;
+  font-size: 1.9rem;
 }
 }

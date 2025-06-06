@@ -119,18 +119,25 @@ height:130px;
 }
 
 .cabecalho {
-  background: linear-gradient(to right,#e0eafc, #cfdef3, #9fbde9);
+   background-image: url(igreja4.jpg);
+  background-repeat: no-repeat;
+  background-position: center -150px;
+  background-size: cover;
   text-align: center;
-  padding: 5px;
+  padding: 20px 0;
   width: 100%;
-  padding-top: 50px;
+  height: 320px; /* altura ideal para desktop */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .nomeigreja {
   font-size: 2.5rem;
-  color: #082241;
+  color: #fff;
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
-  font-weight: 400;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .subigreja {
@@ -206,7 +213,7 @@ text-align: left;
 }
 .lider-foto {
   width: 100%;
-  max-width: 200px;
+  max-width: 300px;
   margin-bottom: 15px;
   text-align: center;
   display: block;
@@ -519,7 +526,9 @@ font-size: 14px;
 
   /* Ajustes no cabeçalho */
   .cabecalho {
-    padding-top: 50px;
+  height: 310px; 
+    padding: 10px 0;
+    background-position: center top;
   }
 
   .nomeigreja {

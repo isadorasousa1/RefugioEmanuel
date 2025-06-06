@@ -72,7 +72,6 @@ height:130px;
 .navegacao {
   position: fixed;
   width: 100%;
-  background: linear-gradient(to right,#e0eafc, #cfdef3, #9fbde9);
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   z-index: 1000;
   height: 40px;
@@ -86,7 +85,7 @@ height:130px;
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: #082241;
+  color: #e5eef8;
   z-index: 1001;
   padding: 5px 15px;
 }
@@ -99,29 +98,31 @@ height:130px;
   height: 100%;
   padding: 0 20px;
   flex-wrap: wrap;
-
+transition: right 0.3s ease-in-out;
+z-index: 999;
   
 }
 
 #navlinks a {
-  color: #082241;
+  color: #fff;
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
   transition: color 0.3s;
   padding: 8px 10px;
   font-family: "Montserrat", sans-serif;
+
 }
 
 #navlinks a:hover,
 #navlinks a.active {
-  color: #4e78ac;
+  color: #082241;
 }
 
 .cabecalho {
-   background-image: url(igreja4.jpg);
+   background-image: url(igr.jpeg);
   background-repeat: no-repeat;
-  background-position: center -150px;
+  background-position: center -130px;
   background-size: cover;
   text-align: center;
   padding: 20px 0;
@@ -130,14 +131,16 @@ height:130px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
 }
+
 .nomeigreja {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
-  font-weight: 600;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .subigreja {
@@ -152,12 +155,14 @@ height:130px;
 }
 
 .logorefu {
-  height: 130px;
+height: 110px;
   display: block;
   margin: 0 auto;
-padding-top: 30px;
-
+padding-top: 20px;
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
+
 
 .sobrenos {
   background-color: #082241;
@@ -315,7 +320,7 @@ font-size: 14px;
   font-size: 2rem;
   color: white;
   padding: 10px;
-  transition: background 0.3s ease, box-shadow 0.3s ease;
+  transition: background 0.3s ease; box-shadow: 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: inline-block;
 }
@@ -504,7 +509,7 @@ font-size: 14px;
     flex-direction: column;
     position: fixed;  
     height: 50%;
-    background: linear-gradient(to right, #e0eafc, #cfdef3, #9fbde9);
+    background-color: #0822419f;
     width: 100%;
     padding:5px 0;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -516,6 +521,10 @@ font-size: 14px;
     display: flex;
   }
 
+#navlinks a:hover,
+#navlinks a.active {
+  color: #cdd6f4;
+}
   #navlinks a {
     padding: 8px 0;
     border-bottom: 1px solid rgba(8, 34, 65, 0.1);
@@ -526,7 +535,7 @@ font-size: 14px;
 
   /* Ajustes no cabeçalho */
   .cabecalho {
-  height: 310px; 
+    height: 310px; /* altura menor para mobile */
     padding: 10px 0;
     background-position: center top;
   }
@@ -577,7 +586,4 @@ font-size: 14px;
 font-size:1rem;
     
   }
- .vers {
-  font-size: 15px;  
-} 
-}
+  }

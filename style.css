@@ -103,7 +103,7 @@ height:130px;
 }
 
 #navlinks a {
-  color: #fff;
+  color: #f2f2f2;
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
@@ -515,7 +515,6 @@ font-size: 14px;
     position: fixed;  
     height: 50%;
     background-color: #f2f2f2ea;
-    color:#082241;
     width: 100%;
     padding:5px 0;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);

@@ -514,7 +514,7 @@ font-size: 14px;
     flex-direction: column;
     position: fixed;  
     height: 50%;
-    background-color: #f2f2f2ea;
+    background-color: #082241bf;
     width: 100%;
     padding:5px 0;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -524,7 +524,7 @@ font-size: 14px;
 
   #navlinks.active {
     display: flex;
-    color:#082241;
+
   }
 
 #navlinks a:hover,

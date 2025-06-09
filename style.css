@@ -6,77 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow-x:hidden;
-}
-.link{
-display: flex;
-  flex-direction: column;
-  gap: 15px;
-  font-family: 'Roboto', sans-serif;
-top:-40px;
-font-size:18px;
-  font-weight: 600;
-max-width:400px;
-text-align:center;
-  margin: 10px auto;
-  padding: 20px;
-text-decoration: none;
-  background: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 30px;
-  color: #fff;
-  font-weight: 600;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
- 
-}
-.link:hover {
-  background: rgba(255, 255, 255, 0.25);
-  transform: scale(1.03);
-}
-
-.container { 
-  background: linear-gradient(to bottom,#e0eafc, #cfdef3, #9fbde9);
-  display: flex;
-  justify-content: center;
-  background-position: center;
-  height: 100vh; 
-  align-items: center;
-  
-}
-
-
-.titulo {
-  font-size: 23px;
-  letter-spacing: 2px;
-  margin-bottom: 30px;
-  color: #fff;
-font-family: 'Roboto', sans-serif;
-text-align:center;
-font-weight:700;
-}
-
-
-
-
- .logo {
- width: 130px;
-  margin-bottom: 10px;
-display:block;
-margin:0 auto;
-margin-top:-40px; 
-height:130px;
-}
-
-.navegacao {
-  position: fixed;
-  width: 100%;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  z-index: 1000;
-  height: 40px;
-  display: flex;
-  justify-content: flex-end;
+   overflow-x:hidden; 
 }
 
 .menu-toggle {
@@ -98,19 +28,20 @@ height:130px;
   height: 100%;
   padding: 0 20px;
   flex-wrap: wrap;
-  color: #fff;
+ 
+
+
   
 }
 
 #navlinks a {
-  color: #f2f2f2;
+  color: #fff;
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
   transition: color 0.3s;
   padding: 8px 10px;
   font-family: "Montserrat", sans-serif;
-
 }
 
 #navlinks a:hover,
@@ -118,8 +49,60 @@ height:130px;
   color: #082241;
 }
 
-.cabecalho {
-   background-image: url(igr.jpeg);
+
+
+.navlinks{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  padding: 0 20px;
+  flex-wrap: wrap;
+  color:  #fff;
+}
+
+.navlinks a {
+  color:  #082241;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: color 0.3s;
+  padding: 8px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.navlinks a:hover,
+.navlinks a.active {
+  color: #4e78ac;
+}
+.navegacao{
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);/*sombra*/
+  z-index: 1000;
+  height: 40px;
+}
+
+.title2{
+ font-size: 3rem;
+  color: #f2f2f2ff;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
+  font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.logorefu{
+  height: 90px;
+  display: block;
+  margin: 0 auto;
+margin-top: -50px;
+padding: -30px;
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+  .cabecalho{
+  background-image: url(igr.jpeg);
   background-repeat: no-repeat;
   background-position: center -130px;
   background-size: cover;
@@ -130,293 +113,137 @@ height:130px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+ 
+  }
+  .visao-screen{
+    background-color:#082241;
+    padding: 40px 20px;
+    display: flex;
+   
+  }
+  .visao{
+    border-radius: 20px;
+    padding: 40px 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: -40px;
+   
+  }
+ 
+  .visao h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+   margin-top: -50px;
+   text-align: left;
+   margin-bottom: 20px;
+  }
+  .text-visao{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    color: #fff;
+   max-width: 700px;
+    text-align: left;
+    
+   
+  }
+  .valor-screen{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    background-color: #f2f2f2;
+    padding: 60px 40px;
+    text-align: center;
+ 
+ 
+  }
   
-}
-
-.nomeigreja {
-  font-size: 3rem;
-  color: #f2f2f2ff;
-  font-family: 'Roboto', sans-serif;
-  margin-top: 20px;
-  font-weight: r00;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.subigreja {
-  color: #fff;
-  font-size: 16px;
-  background-color: #082241;
-  border: none;
-  padding: 9px 15px;
-  margin: 15px;
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 700;
-}
-
-.logorefu {
-height: 110px;
-  display: block;
-  margin: 0 auto;
-padding-top: 20px;
- text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-
-
-.sobrenos {
-  background-color: #082241;
-  color: #fff;
-  padding: 40px 20px;
-  display: flex;
-  
-}
-
-.sobreh2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 200;
-  font-size: 2rem;
- margin-top: 5px;
- margin-bottom: 20px;
-  
-}
-.text-sobre {
-font-family: "Montserrat", sans-serif;
-font-weight: 200;
-font-size: 1.2rem;
-color: #fff;
-max-width: 600px;
-text-align: left;
-}
-.text {
-  padding: 15px;
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-.lideranca {
-  background: linear-gradient(to bottom left,#e0eafc, #cfdef3, #9fbde9);
-  padding: 40px 20px;
-}
-
-.lider-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-}
-
-.lider {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
-  padding: 20px;
-  width: 280px;
+  .caixa-container {
+    background:#f2f2f2 ;
+    width:22%; /* para caber 4 lado a lado */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
   color: #082241;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  text-align: center;
-}
-.lider-foto {
-  width: 100%;
-  max-width: 300px;
-  margin-bottom: 15px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.lidertitle {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-size: 2.5rem;
-  text-align: center;
-  
- 
-}
-.lider h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 1.5rem;
-  text-align: center;
-  margin-bottom: 10px;
-}
-.text{
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem; 
-  text-align: center;
-}
-
-#cultos {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 200;
-  background-color: #082241;
-  color: white;
+  max-width: 250px;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
   padding: 30px 20px;
-  text-align: center;
+  border-radius: 10px;
+  }
+  .titlevalor{
+    text-align: center;
+     padding: 20px;
+     width: 100%;
+     font-family: 'Noto Sans', sans-serif;
+     font-weight: 400;
+     font-size: 2rem;
+     color: #082241;
+     margin: 0 auto;
+     margin-top: -50px;
+   
+   }
+  .caixa-container h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  .icone {
+ background-color: #b6c0be;
+ border-radius: 50%;
+ width: 70px;
+ height: 70px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0 auto 20px;
+ font-size: 25px;
+  }
+  .titlevalor h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight:300;
+    margin-top: 40px;
+    font-size: 2rem;
+    text-transform:uppercase;
+    color: #082241;
+    text-align: center;
+    padding:10px;
+    margin-bottom: 20px;
+  }
+  .caixa h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
   
-}
-.dias-culto{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  color: #fff;
-  font-size: 17px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-bottom: 10px;
+  .caixa-container p {
+    font-family:"Montserrat", sans-serif; ;
+    font-size: 1rem;
+    font-weight: 500;
+  }
   
-}
-
-.nome-culto{
-  font-size: 14px;
-  font-weight: 200;
-}
-
-.culto-title {
-  
-  margin-bottom: 40px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  color:  #fff;
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-.sub-youtube {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  color: #fff;
-font-size: 14px;
-
-}
-.textyoutube{
-  font-family: "Montserrat", sans-serif;
-  font-weight: 200;
-  color: #fff;
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-.cultos-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  padding: 20px;
-  font-size: 30px;
-}
-
-.culto-horarios {
-  border: 1px solid white;
-  border-radius: 20px;
-  padding: 20px;
-  text-align: left;
-  font-size: 1.1rem;
-  line-height: 1.5;
-  max-width: 400px;
-}
-
-.culto-youtube {
-  font-size: 1.2rem;
-  padding: 20px;
-  max-width: 320px;
-}
-
-.icone-youtube {
-  font-size: 2rem;
-  color: white;
-  padding: 10px;
-  transition: background 0.3s ease; box-shadow: 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: inline-block;
-}
-
-.icone-youtube:hover {
- transform: scale(1.05);
- box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-
-}
-
-.linha {
-  width: 80%;
-  height: 1px; 
-  background-color: #ffffff; 
-  margin: 20px auto; 
-  margin-top: -70px; 
-  margin-bottom: 100px; 
-}
-
  
-  #dizimoofertas {
-  background-color: #082241;
-  color: white;
-  padding: 60px 20px;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: 0;
-}
-
-.title-diz {
-  font-size: 2.2rem;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-
-.vers {
-  font-size: 22px;
-  color: #cdd6f4;
-  max-width: 800px;
-  margin: 0 auto 40px;
-  line-height: 1.6;
-  font-family: "Montserrat", sans-serif;
-  font-weight:400
-}
-
-.livro{
-  font-weight: 500;
-  color: white;
-}
-
-.caixa-dados {
-  border: 1px solid white;
-  border-radius: 20px;
-  padding: 30px 20px;
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: left;
-  background-color: rgba(255, 255, 255, 0.05);
-  
-}
-
-.title-contri  {
-  color: white;
-  font-size: 1.8rem;
-  font-weight: 300;
-  text-align: center;
-  margin-bottom: 40px;
-  margin-top: 20px;
  
-}
-.contri{
-  font-weight: 500;
+ 
+  @media (max-width: 768px) {
+    .valor-screen{
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .caixa-container {
+      width: 90%;
+     min-width: none;
+    }
+  }
   
-}
-.chaves{
-  font-weight: 500;
-  font-size: 19px;
-  color: white;
-}
-
-.caixa-dados p {
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: 15px;
-  line-height: 1.6;
-  font-size: 17px;
-  font-weight: 300;
   
-}
-#footer {
+footer {
   background-color: #f2f2f2;
   padding: 30px 20px;
   font-family: 'Montserrat', sans-serif;
@@ -450,7 +277,7 @@ font-size: 14px;
   font-weight: 700;
 }
 
-#footer p {
+footer p {
   margin: 4px 0;
   font-size: 15px;
   color: #082241;
@@ -493,20 +320,20 @@ font-size: 14px;
   font-size: 13px;
   color: #082241;
   font-family: 'Montserrat', sans-serif;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 5px;
   
 }
 
 @media (max-width: 768px) {
-  
+ 
   #menu-toggle {
     display: block;
     position: fixed;
     right: 15px;
     top: 5px;
-
     z-index: 1001;
+
   }
 
   #navlinks {
@@ -524,32 +351,25 @@ font-size: 14px;
 
   #navlinks.active {
     display: flex;
-
   }
 
-#navlinks a:hover,
-#navlinks a.active {
-  color: #8f9ecf;
-}
   #navlinks a {
     padding: 8px 0;
     border-bottom: 1px solid rgba(8, 34, 65, 0.1);
     width: 100%;
     text-align: center;
     font-size: 16px;
-    color:082241;
+  color:  #fff;
   }
 
-  
   .cabecalho {
-    height: 310px;
+     height: 310px; 
     padding: 10px 0;
     background-position: center top;
   }
-
-  .nomeigreja {
-    font-size: 1.9rem;
-    fonte-weight:500;
+  .title2 {
+    font-size: 2.3rem;
+    font-weight:500;
   }
 
   .logorefu {
@@ -557,49 +377,37 @@ font-size: 14px;
     padding-top: 10px;
   }
 
-
-  .lider-container {
+  .valor-screen{
     flex-direction: column;
     align-items: center;
   }
-
-  .cultos-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .culto-horarios, .culto-youtube {
-    width: 100%;
-    max-width: 100%;
-  }
-   .vers {
-  font-size: 15px;  
-}
-  .textyoutube{
-font-size: 1rem;
-  }
-}
-
-
-
-@media (max-width: 480px) {
-  .nomeigreja {
-    font-size: 1.8rem;
-  }
   
-  .subigreja {
-    font-size: 16px;
-    padding: 7px 12px;
+  .caixa-container {
+    width: 90%;
+   min-width: none;
   }
-  
-  .sobreh2, .lidertitle, .culto-title, .title-diz {
-    font-size: 1.9rem;
-  }
-  .text-sobre{
+  .text-visao{
 font-size:1rem;
-    
-  }
-  .textyoutube{
-font-size: 1rem;
-  }
-  }
+
+}
+.titlevalor{
+  font-size:1.5rem;
+}
+.visao h2{
+  font-size: 1.9rem;
+}
+}
+@media (max-width: 480px){
+.text-visao{
+font-size:1rem;
+}
+.titlevalor{
+  font-size:1.5rem;
+}
+.title2{
+  font-size:2.3rem
+}
+.visao h2{
+  font-size: 1.9rem;
+}
+}

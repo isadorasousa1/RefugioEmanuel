@@ -92,11 +92,12 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 .logorefu{
-height: 110px;
+  height: 90px;
   display: block;
   margin: 0 auto;
-padding-top: 20px;
- text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+margin-top: -50px;
+padding: -30px;
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 
